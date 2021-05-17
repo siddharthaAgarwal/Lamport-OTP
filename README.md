@@ -6,9 +6,9 @@ can only be used to securely sign one message.
 
 Suppose Alice wants to digitally sign her message to Bob. The process of the Algorithm
 consists of 3 steps -
-● Generating key pair ( a private key and a public key)
-● Generating signature at Alice’s side.
-● Verifying signature at Bob’s side for Authorizing.
+● Generating key pair ( a private key and a public key) <br>
+● Generating signature at Alice’s side. <br>
+● Verifying signature at Bob’s side for Authorizing. <br>
 
 
 ## Algorithm Explanation:
@@ -16,7 +16,7 @@ consists of 3 steps -
 ### Making the key pair
 ● To create the private key Alice uses the random number generator to produce 256 pairs
 of random numbers (2×256 numbers in total), each number being 256 bits in size.
-This private key is available to Alice only. She can use it to sign messages.
+This private key is available to Alice only. She can use it to sign messages.<br>
 ● Public key creation is done by hashing each of these numbers using a 256-bit
 cryptographic hash function
 
