@@ -35,8 +35,8 @@ other 256 numbers that she did not use for the signature.<br>
 obtain a 256-bit digest.<br>
 ● In case of an enhanced scheme. He can add salt to the message to create a digest.<br>
 ● For each bit in digest(0 or 1) Bob will choose the corresponding row from the public key
-(shared to all) and generate a 256 bit signature. If bit = 0, first row’s column is chosen If
-bit = 1, second row’s column is chosen.<br>
+(shared to all) and generate a 256 bit signature. If bit=0, first row’s column is chosen If
+bit=1, second row’s column is chosen.<br>
 ● Bob hashes each of the numbers in Alice’s signature to obtain a 256-bit digest.<br>
 ● Now, both the digests are compared bit by bit. If there is a mismatch signature is not
 valid, else valid.<br>
